@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animated_gradient">
+
+    <!-- Neural particles -->
+    <com.knowzy.app.splash.ParticleNetworkView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="460dp"
+        android:layout_height="460dp"
+        android:layout_gravity="center"
+        android:src="@drawable/knowzy_logo"
+        android:alpha="0"
+        android:scaleType="fitCenter"/>
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:text="Knowzy"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="150dp"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:text="Knowledge made easy"
+        android:textColor="#DCE9FF"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="120dp"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

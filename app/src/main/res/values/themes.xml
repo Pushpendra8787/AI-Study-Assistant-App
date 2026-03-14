@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme -->
+    <style name="Base.Theme.Knowzy" parent="Theme.Material3.DayNight.NoActionBar"/>
+
+    <!-- App theme -->
+    <style name="Theme.Knowzy" parent="Base.Theme.Knowzy"/>
+
+    <!-- Splash Theme -->
+    <style name="Theme.Knowzy.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/animated_gradient</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>
